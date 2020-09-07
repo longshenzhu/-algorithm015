@@ -9,4 +9,4 @@
 HashMap 实现:
     HashMap的主干是一个Entry数组。Entry是HashMap的基本组成单元，每一个Entry包含一个key-value键值对。
     transient Entry<K,V>[] table = (Entry<K,V>[]) EMPTY_TABLE;
-    ![Alt text](/Images/Node.jpg)
+    ![Alt text](https://github.com/longshenzhu/-algorithm015/blob/master/Week_02/Images/Node.jpg)
