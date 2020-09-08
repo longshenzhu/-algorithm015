@@ -62,10 +62,12 @@ public HashMap() {
 
 * JDK1.8在JDK1.7的基础上针对增加了红黑树来进行优化。即当链表超过8时，链表就转换为红黑树，利用红黑树快速增删改查的特点提高HashMap的性能，其中会用到红黑树的插入、删除、查找等算法。
 
-* put逻辑图：
+### put逻辑图
+
 !["put实现逻辑"](Images/hashmap-put.png)
 
 ----
 
-* hashMap 逻辑结构图
+### hashMap 逻辑结构图
+
 !["hashMap 逻辑结构图"](Images/hashMap-node.jpg)
